@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B464D039
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.miaow.Core.Test", "com.miaow.Core.Test\com.miaow.Core.Test.csproj", "{7B571EC2-1DD2-4ACC-A1F3-93888ABE8851}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{F6CB7F80-9B21-4F79-9708-44DAF91F25F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.miaow.App.ConsoleApp", "com.miaow.App.ConsoleApp\com.miaow.App.ConsoleApp.csproj", "{1DE9E8BE-FDEE-4C2E-AF0A-9EA72CD253AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,17 @@ Global
 		{7B571EC2-1DD2-4ACC-A1F3-93888ABE8851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B571EC2-1DD2-4ACC-A1F3-93888ABE8851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B571EC2-1DD2-4ACC-A1F3-93888ABE8851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DE9E8BE-FDEE-4C2E-AF0A-9EA72CD253AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE9E8BE-FDEE-4C2E-AF0A-9EA72CD253AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE9E8BE-FDEE-4C2E-AF0A-9EA72CD253AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE9E8BE-FDEE-4C2E-AF0A-9EA72CD253AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7B571EC2-1DD2-4ACC-A1F3-93888ABE8851} = {B464D039-FC26-49D0-B6C5-4CE177117321}
+		{1DE9E8BE-FDEE-4C2E-AF0A-9EA72CD253AD} = {F6CB7F80-9B21-4F79-9708-44DAF91F25F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2FD09F9B-C01D-4EBB-B782-9D052D7EE6AC}

@@ -29,10 +29,10 @@ namespace com.miaow.Core.Test.EventBusTests
         {
             ApplicationContext.Current.EventBus.Register<FakeRequest>();
 
-            var actual = ApplicationContext.Current.EventBus.Trigger<FakeRequest,FakeResponse>(new FakeRequest());
+            var actual = ApplicationContext.Current.EventBus.Trigger<FakeRequest, FakeResponse>(new FakeRequest());
 
             actual.Status.Should().Be(ResponseStatus.Success);
         }
-        
+
     }
 }
