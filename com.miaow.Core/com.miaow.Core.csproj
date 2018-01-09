@@ -49,19 +49,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EventBus\ActionEventHandler.cs" />
-    <Compile Include="EventBus\EventBus.cs" />
-    <Compile Include="EventBus\EventHandlerBase.cs" />
-    <Compile Include="EventBus\IEventBus.cs" />
-    <Compile Include="EventBus\IEventHandler.cs" />
-    <Compile Include="EventBus\IEventArgs.cs" />
-    <Compile Include="EventBus\IEventData.cs" />
-    <Compile Include="EventBus\IEventResult.cs" />
-    <Compile Include="EventStores\IEventStore.cs" />
+    <Compile Include="Events\EventBus.cs" />
+    <Compile Include="Events\EventDataBase.cs" />
+    <Compile Include="Events\EventHandlerBase.cs" />
+    <Compile Include="Events\EventRequestBase.cs" />
+    <Compile Include="Events\EventResponseBase.cs" />
+    <Compile Include="Events\IEventBus.cs" />
+    <Compile Include="Events\IEventHandler.cs" />
+    <Compile Include="Events\IEventRequest.cs" />
+    <Compile Include="Events\IEventData.cs" />
+    <Compile Include="Events\IEventResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EventStores\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
