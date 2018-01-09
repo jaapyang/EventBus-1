@@ -4,7 +4,7 @@
     {
     }
 
-    public interface IEventHandler<in TRequest, out TResponse> : IEventHandler
+    public interface IEventHandler<TRequest, TResponse> : IEventHandler
         where TRequest : IEventRequest
         where TResponse : IEventResponse, new()
     {

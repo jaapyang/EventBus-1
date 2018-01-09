@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Context\ApplicationContext.cs" />
     <Compile Include="Events\EventBus.cs" />
     <Compile Include="Events\EventDataBase.cs" />
     <Compile Include="Events\EventHandlerBase.cs" />
@@ -64,8 +65,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="EventStores\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
